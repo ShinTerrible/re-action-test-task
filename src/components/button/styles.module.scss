@@ -1,0 +1,22 @@
+.button_content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding-block-start: 8px;
+	padding-block-end: 8px;
+	padding-inline-start: 1rem;
+	padding-inline-end: 1rem;
+	border-radius: 0.5em;
+	border: 0.5px solid transparent;
+	font-weight: 400;
+	border-radius: 0.5em;
+	min-height: 34px;
+	min-width: 41.8px;
+	// background-color: var(--white-background);
+}
+
+.button_content:hover {
+	background-color: pink;
+}
+.button_content:active {
+	background-color: pink;
+}

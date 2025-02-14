@@ -1,0 +1,31 @@
+.pagination_container {
+	width: 60%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.pagination_state {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	color: gray;
+	font-size: 16px;
+}
+
+.pagination {
+	box-sizing: border-box;
+	width: 60px;
+	color: gray;
+	align-items: center;
+	text-align: center;
+	filter: drop-shadow(0 10px 8px gray) drop-shadow(0 4px 3px gray);
+}
+
+.pagination-button {
+	color: gray;
+	min-height: 34px;
+	width: 60px;
+	background-color: transparent;
+}

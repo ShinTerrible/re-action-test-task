@@ -1,0 +1,13 @@
+body {
+	background-color: var(--grey-border);
+	overflow-x: hidden;
+	max-width: 620px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.app {
+	max-width: 820px;
+	margin: auto;
+	overflow-x: hidden;
+}

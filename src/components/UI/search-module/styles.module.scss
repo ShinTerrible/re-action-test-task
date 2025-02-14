@@ -1,0 +1,39 @@
+.form {
+	width: 60%;
+	margin: 30px auto;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5px;
+
+	filter: drop-shadow(0 10px 8px var(--grey-border))
+		drop-shadow(0 4px 3px var(--grey-border));
+}
+
+.search_name {
+	padding-block-start: 0.5rem;
+	padding-block-end: 0.5rem;
+	padding-inline-start: 1rem;
+	padding-inline-end: 1rem;
+	border-radius: 0.5em;
+	border: 0.5px solid rgb(201, 201, 201);
+	font-size: 14px;
+	color: rgb(75, 74, 74);
+	flex-grow: 2;
+}
+
+.search_name:focus-visible {
+	outline: none;
+}
+
+.search-button {
+	border: 0.5px solid rgb(201, 201, 201);
+
+	background-color: var(--white-background);
+}
+
+.search-button:active {
+	background-color: var(--active-color);
+}
